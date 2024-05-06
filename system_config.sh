@@ -37,3 +37,13 @@ apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker
 
 # Cleanup
 apt autoremove
+
+
+# Manual actions required to finish
+clear
+printf "run the following commands to finish configuring your computer:
+git config --global user.email \"<email>\"
+git config --global user.name \"<name>\"
+
+select-editor
+"
