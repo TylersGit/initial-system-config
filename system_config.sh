@@ -14,6 +14,10 @@ snap install --classic valgrind
 apt install -y build-essential
 apt install -y git
 
+# missing for valgrind
+apt install libc6-dbg:i386
+apt install libc6-dbg
+
 # Tooling
 apt install -y net-tools
 
