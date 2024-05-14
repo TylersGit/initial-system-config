@@ -19,6 +19,7 @@ apt install -y net-tools
 
 # Configuration
 cp ./keybindings.json ~/.config/Code/User/keybindings.json # vscode shortcuts
+git config --global core.editor "vim"
 
 # Add Docker 
 apt update
