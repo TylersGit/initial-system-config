@@ -18,6 +18,7 @@ apt install -y git
 apt install -y net-tools
 
 # Configuration
+cp ./keybindings.json ~/.config/Code/User/keybindings.json # vscode shortcuts
 
 # Add Docker 
 apt update
