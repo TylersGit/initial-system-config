@@ -7,5 +7,10 @@
     {
         "key": "alt+n",
         "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+.",
+        "command": "tabnine.chat.commands.document-code"
     }
+
 ]
